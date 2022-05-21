@@ -1,4 +1,6 @@
 site_name: DVIA Docs
+theme:
+    name: readthedocs
 nav:
     - '欢迎' : index.md
     - '社团概况': 
