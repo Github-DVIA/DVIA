@@ -1,0 +1,11 @@
+site_name: DVIA Docs
+nav:
+    - '欢迎' : index.md
+    - '社团概况': 
+        - '组织架构' : 'org.md'
+        - '入社要求' : 'need.md'
+    - '技术参考':
+        - '技术入门' : 'tech-index.md'
+        - '拍摄入门' : 'basicdv.md'
+        - '剪辑入门' : 'basiccut.md'
+        - '直播入门' : 'basicstream.md'
