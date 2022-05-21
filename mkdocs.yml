@@ -9,3 +9,4 @@ nav:
         - '拍摄入门' : 'basicdv.md'
         - '剪辑入门' : 'basiccut.md'
         - '直播入门' : 'basicstream.md'
+    - '项目贡献' : thanks.md
