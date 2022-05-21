@@ -1,0 +1,2 @@
+mkdocs==1.3.0
+jinja2==3.0.3 # See issue in https://forums.docker.com/t/jinja-mkdocs-issue-breaks-docker101tutorial/122671
