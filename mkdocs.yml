@@ -29,18 +29,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+    - primary: deep orange
+    - accent: yellow
   name: material
   logo: logo/LOGO.png
   favicon: logo/LOGO.png
@@ -49,16 +39,25 @@ theme:
   language: zh
 nav:
   - "欢迎": index.md
-  - "社团概况":
+  - "概况":
       - "社团历史": "info/history.md"
       - "社团工作": "info/work.md"
-  - "社团管理":
-      - "组织架构": "org.md"
-      - "加入社团": "join.md"
-  - "技术参考":
-      - "技术入门": "basic/entry.md"
-      - "拍摄入门": "basic/rec.md"
-      - "剪辑入门": "basic/cut.md"
-      - "直播入门": "basic/stream.md"
+  - "管理":
+      - "组织架构": "man/org.md"
+      - "加入社团": "man/join.md"
+  - "技术":
+      - "tech/entry.md"
+      - "入门":
+          - "拍摄": "tech/basic/rec.md"
+          - "剪辑": "tech/basic/cut.md"
+          - "直播": "tech/basic/stream.md"
+      - "进阶":
+          - "拍摄": "tech/adv/rec.md"
+          - "剪辑": "tech/adv/cut.md"
+          - "直播": "tech/adv/stream.md"
+      - "精通":
+          - "拍摄": "tech/pro/rec.md"
+          - "剪辑": "tech/pro/cut.md"
+          - "直播": "tech/pro/stream.md"
   - "标签": tags.md
-  - "项目贡献": thanks.md
+  - "贡献": thanks.md

@@ -1,3 +1,13 @@
-# 欢迎阅读此文档
+---
+hide:
+  - navigation
+  - toc
+---
 
-**顺德第一中学 数字影像社团 内部文档**
+# DVIA
+
+## Introduction
+
+* Established in **2009**, now the number of members has reached about **30**.
+
+* The **FullName** of DVIA: Digital Video Innovation Association
