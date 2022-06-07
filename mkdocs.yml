@@ -1,6 +1,10 @@
 site_name: DVIA Docs
 plugins:
-  - with-pdf
+  - with-pdf:
+      cover_subtitle: DVIA内部文档
+      cover: true
+      cover_logo: logo/LOGO.png
+      output_path: pdf/full.pdf
   - git-revision-date
   - tags:
       tags_file: tags.md
@@ -62,3 +66,8 @@ nav:
           - "直播": "tech/pro/stream.md"
   - "标签": tags.md
   - "贡献": thanks.md
+repo_url: https://github.com/Github-DVIA/DVIA
+repo_name: Github-DVIA/DVIA
+site_author: DVIA
+copyright: Copyright &copy; 2008 - Now DVIA
+edit_uri: ""
