@@ -1,10 +1,5 @@
 site_name: DVIA Docs
 plugins:
-  - with-pdf:
-      cover_subtitle: DVIA内部文档
-      cover: true
-      cover_logo: logo/LOGO.png
-      output_path: pdf/full.pdf
   - git-revision-date
   - tags:
       tags_file: tags.md
@@ -14,6 +9,16 @@ plugins:
         - ja
       separator: '[\s\u200b\-]'
 markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.betterem
   - pymdownx.arithmatex:
       generic: true
   - admonition
