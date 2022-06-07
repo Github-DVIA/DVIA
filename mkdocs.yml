@@ -40,7 +40,6 @@ theme:
     - navigation.tabs.sticky
   palette:
     - primary: deep orange
-    - accent: yellow
   name: material
   logo: logo/LOGO.png
   favicon: logo/LOGO.png
