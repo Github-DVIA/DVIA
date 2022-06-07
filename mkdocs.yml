@@ -1,5 +1,6 @@
 site_name: DVIA Docs
 plugins:
+  - with-pdf
   - git-revision-date
   - tags:
       tags_file: tags.md
