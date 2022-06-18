@@ -46,6 +46,8 @@ theme:
   font: false
   locale: zh_CN
   language: zh
+extra_css:
+  - fonts/stylesheet.css
 nav:
   - "欢迎": index.md
   - "概况":
